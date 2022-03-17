@@ -1,9 +1,27 @@
+ulch() {
+cd ~
+if [ -e ultroid.sh ];then
+bash ultroid.sh
+else
+cd ~
+wget https://raw.githubusercontent.com/rooted-cyber/uploading/main/ultroid.sh
+bash ultroid.sh
+fi
+}
+
 hara() {
 printf "\033[1;92m"
 }
 sada() {
 printf "\033[0m"
 }
+eng() {
+cd $PREFIX
+if [ -e ultroid ];then
+ulch
+fi
+}
+
 enter="echo"
 start() {
 printf "\t\t\033[1;92m Contact : [\033[0m @rootedcyber\033[92m ]"
