@@ -1,6 +1,6 @@
 dlc() {
 #wget https://github.com/rooted-cyber/terminal-bot/raw/main/dev.zip
-wget -O .env https://raw.githubusercontent.com/rooted-cyber/terminal-bot/main/env/termux%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F.txt
+wget -O .env https://raw.githubuserconte️️️nt.com/rooted-cyber/terminal-bot/main/env/termux%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F.txt
 cp  -f dev.zip .env /root/TeamUltroid/Ultroid
 }
 dep() {
