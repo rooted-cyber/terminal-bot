@@ -1,0 +1,5 @@
+API_ID=4704777
+API_HASH=b8e50a035abb851c0dfhhgac4c06
+SESSION=
+REDIS_URI=redis-10311.c10.us-eaghhec2.cloud.redislabs.com:10311
+REDIS_PASSWORD=ghoodV8lwVZRTktAS7jxkgjfNBwjJ2
