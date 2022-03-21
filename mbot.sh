@@ -14,7 +14,7 @@ cp -f *main* /root/TeamUltroid/mirr*t/bot
 cp -f fs* /root/TeamUltroid/mi*t/bot/help*/ext*/
 cp -f config.env /root/TeamUltroid/m*t
 cp -f token.pickle /root/TeamUltroid/m*t
-cp -f token_sa.pickle /root/TeamUltroid/mirr*t
+#cp -f token_sa.pickle /root/TeamUltroid/mirr*t
 cp -f req.sh /root/TeamUltroid/mi*t
 ls
 }
