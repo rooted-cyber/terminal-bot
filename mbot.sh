@@ -2,6 +2,8 @@ fol() {
 cd /root/TeamUltroid/mirror-bot
 }
 dl() {
+fol
+pwd
 rm -rf dow
 mkdir dow
 cd dow
@@ -14,6 +16,7 @@ cp -f config.env /root/TeamUltroid/m*t
 cp -f token.pickle /root/TeamUltroid/m*t
 cp -f token_sa.pickle /root/TeamUltroid/mirr*t
 cp -f req.sh /root/TeamUltroid/mi*t
+ls
 }
 ald() {
 cd /root/TeamUltroid/mi*t/bot
