@@ -32,6 +32,7 @@ ald
 dl
 fol
 pip install --upgrade pip
+chmod 777 -R *
 bash req.sh
 
 
