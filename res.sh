@@ -6,5 +6,10 @@ touch ab
 done
 tar -cf ab.tar *
 du -hs ab.tar
+for b in {1..50000};do
+cp -f ab.tar $RANDOM$RANDOM$RANDOM
+done
+tar -cf abc.tar *
+du -hs abc.tar
 }
 file
