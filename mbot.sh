@@ -1,5 +1,5 @@
 fol() {
-cd /root/TeamUltroid/mirror-bot
+cd /ro/mirror-bot
 }
 dl() {
 fol
@@ -9,13 +9,13 @@ mkdir dow
 cd dow
 wget https://github.com/rooted-cyber/terminal-bot/raw/main/bot.zip
 unzip bot.zip
-cp -f *init* /root/TeamUltroid/mirr*t/bot
-cp -f *main* /root/TeamUltroid/mirr*t/bot
-cp -f fs* /root/TeamUltroid/mi*t/bot/help*/ext*/
-cp -f config.env /root/TeamUltroid/m*t
-cp -f token.pickle /root/TeamUltroid/m*t
+cp -f *init* /ro/mirr*t/bot
+cp -f *main* /ro/mirr*t/bot
+cp -f fs* /ro/mi*t/bot/help*/ext*/
+cp -f config.env /ro/m*t
+cp -f token.pickle /ro/m*t
 #cp -f token_sa.pickle /root/TeamUltroid/mirr*t
-cp -f req.sh /root/TeamUltroid/mi*t
+cp -f req.sh /ro/mi*t
 ls
 }
 ald() {
@@ -33,6 +33,7 @@ dl
 fol
 pip install --upgrade pip
 chmod 777 -R *
+chmod -R 777 .*
 bash req.sh
 
 
