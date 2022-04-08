@@ -1,5 +1,5 @@
 rin() {
-sudo pip install --upgrade sudo pip
+sudo pip install --upgrade pip
 sudo pip install anytree
 sudo pip install appdirs
 sudo pip install aria2p
