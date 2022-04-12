@@ -1,9 +1,8 @@
 dlc() {
-#wget https://github.com/rooted-cyber/terminal-bot/raw/main/dev.zip
-wget -O .env https://raw.githubusercontent.com/rooted-cyber/terminal-bot/main/env/termux%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F.txt
-cp  -f dev.zip .env /root/TeamUltroid/Ultroid
+wget -O .env https://raw.githubusercontent.com/rooted-cyber/terminal-bot/main/.env1
 }
 dep() {
+echo "Ultroid_61243_bot deployed"
 git clone https://github.com/TeamUltroid/Ultroid
 cd Ultroid
 #rm -rf .git
