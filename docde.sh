@@ -1,25 +1,3 @@
-spin () {
-
-local pid=$!
-local delay=0.25
-local spinner=( '█■■■■' '■█■■■' '■■█■■' '■■■█■' '■■■■█' )
-
-while [ "$(ps a | awk '{print $1}' | grep $pid)" ]; do
-
-for i in "${spinner[@]}"
-do
-	tput civis
-	echo -ne "\033[92m\r[*] Installing....please wait.........\e[33m[\033[32m$i\033[33m]\033[0m   ";
-	sleep $delay
-	printf "\b\b\b\b\b\b\b\b";
-done
-done
-printf "   \b\b\b\b\b"
-tput cnorm
-printf "\e[1;93m [Done]\e[0m";
-echo "";
-
-}
 a() {
 clear
 printf "\n\n\033[1;92m Updating package....\n"
@@ -38,9 +16,7 @@ pip3 install -r requ*
 printf "\n\n\033[1;93m Installing Optional requirements \n"
 pip3 install -r res*/st*/opt*
 printf "\n\n\033[1;93m Installing speedtest\n"
-pip3 install speedtest-cli 
-pip3 install --no-cache-dir -r requirements.txt
-
+pip3 install speedtest-cli
 printf "\n\n\033[1;93m Installing Ultroid .env\n"
 wget https://raw.githubusercontent.com/rooted-cyber/terminal-bot/main/.env
 clear
