@@ -1,4 +1,4 @@
-spin() {
+spinh() {
 local pid=$!
 local delay=0.25
 local spinner=( '█■■■■' '■█■■■' '■■█■■' '■■■█■' '■■■■█' )
@@ -17,6 +17,18 @@ printf "\e[1;93m [Done]\e[0m";
 echo "";
 
 }
+spin(){
+    local pid=$!
+    while [ "$(ps a | awk '{print $1}' | grep $pid)" ];
+    do
+        for i in "Ooooo" "oOooo" "ooOoo" "oooOo" "ooooO" "oooOo" "ooOoo" "oOooo" "Ooooo"
+        do
+          echo -ne "\r• $i"
+          sleep 0.2
+        done
+    done
+}
+
 a() {
 clear
 printf "\n\n\033[1;92m Updating package....\n"
