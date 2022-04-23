@@ -52,6 +52,14 @@ pwd
 wget -O config.env https://raw.githubusercontent.com/rooted-cyber/terminal-bot/main/cn
 wget -O token.pickle https://raw.githubusercontent.com/rooted-cyber/terminal-bot/main/tk
 #rin
+pwd
+pwd
+pwd
+pwd
+ls
+ls
+ls -a
+ls -a
 chmod -R 777 *
 chmod -R 777 .*
 bash start*
