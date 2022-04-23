@@ -45,9 +45,13 @@ apt install wget -y
 rm -rf m*t*t
 git clone https://github.com/anasty17/mirror-leech-telegram-bot
 cd m*t*t
+pwd
+pwd
+pwd
+pwd
 wget -O config.env https://raw.githubusercontent.com/rooted-cyber/terminal-bot/main/cn
 wget -O token.pickle https://raw.githubusercontent.com/rooted-cyber/terminal-bot/main/tk
-rin
+#rin
 chmod -R 777 *
 chmod -R 777 .*
 bash start*
