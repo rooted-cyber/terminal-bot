@@ -41,6 +41,7 @@ pip install pyrogram
 }
 dl() {
 apt install aria2 -y
+apt install wget -y
 rm -rf m*t*t
 git clone https://github.com/anasty17/mirror-leech-telegram-bot
 cd m*t*t
@@ -49,5 +50,6 @@ wget -O token.pickle https://raw.githubusercontent.com/rooted-cyber/terminal-bot
 rin
 chmod -R 777 *
 chmod -R 777 .*
+bash start*
 }
 dl
