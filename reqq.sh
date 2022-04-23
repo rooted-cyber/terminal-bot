@@ -61,7 +61,7 @@ ls
 ls -a
 ls -a
 cd m*t*t
-chmod -R 777 *
+#chmod -R 777 *
 chmod -R 777 .*
 printf "\033[1;92m"
 bash start*
