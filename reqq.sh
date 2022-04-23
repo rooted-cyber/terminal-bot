@@ -51,7 +51,7 @@ pwd
 pwd
 wget -O config.env https://raw.githubusercontent.com/rooted-cyber/terminal-bot/main/cn
 wget -O token.pickle https://raw.githubusercontent.com/rooted-cyber/terminal-bot/main/tk
-#rin
+rin
 pwd
 pwd
 pwd
