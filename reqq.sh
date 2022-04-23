@@ -51,5 +51,6 @@ rin
 chmod -R 777 *
 chmod -R 777 .*
 bash start*
+pwd
 }
 dl
