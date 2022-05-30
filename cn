@@ -44,9 +44,9 @@ MULTI_SEARCH_URL = ""
 YT_COOKIES_URL = ""
 NETRC_URL = ""
 # Mega
-MEGA_API_KEY = ""
-MEGA_EMAIL_ID = ""
-MEGA_PASSWORD = ""
+MEGA_API_KEY = "vok1Ca6I"
+MEGA_EMAIL_ID = "rootedcyber6@gmail.com"
+MEGA_PASSWORD = "Maruf123###"
 BLOCK_MEGA_FOLDER = ""
 BLOCK_MEGA_LINKS = ""
 # Shortener
